@@ -2,8 +2,8 @@ PWD d:/full_backup/Documents/Documents/Education/UBC/UBC 24-25/TERM 2/Co-Op Job 
 INPUT c:/texlive/2024/texmf.cnf
 INPUT c:/texlive/2024/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT d:/full_backup/Documents/Documents/Education/UBC/UBC 24-25/TERM 2/Co-Op Job Applications/Actual Resume/main.tex
-OUTPUT main.log
+INPUT d:/full_backup/Documents/Documents/Education/UBC/UBC 24-25/TERM 2/Co-Op Job Applications/Actual Resume/Daniel_Benjamin_Resume.tex
+OUTPUT Daniel_Benjamin_Resume.log
 INPUT c:/texlive/2024/texmf-dist/tex/latex/base/article.cls
 INPUT c:/texlive/2024/texmf-dist/tex/latex/base/article.cls
 INPUT c:/texlive/2024/texmf-dist/tex/latex/base/size11.clo
@@ -124,21 +124,21 @@ INPUT c:/texlive/2024/texmf-dist/tex/generic/pdftex/glyphtounicode.tex
 INPUT c:/texlive/2024/texmf-dist/tex/generic/pdftex/glyphtounicode.tex
 INPUT c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-INPUT ./main.aux
-INPUT ./main.aux
-INPUT main.aux
-OUTPUT main.aux
+INPUT ./Daniel_Benjamin_Resume.aux
+INPUT ./Daniel_Benjamin_Resume.aux
+INPUT Daniel_Benjamin_Resume.aux
+OUTPUT Daniel_Benjamin_Resume.aux
 INPUT c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-INPUT ./main.out
-INPUT ./main.out
-INPUT main.out
-INPUT main.out
-INPUT ./main.out
-INPUT ./main.out
-OUTPUT main.out
-OUTPUT main.pdf
+INPUT ./Daniel_Benjamin_Resume.out
+INPUT ./Daniel_Benjamin_Resume.out
+INPUT Daniel_Benjamin_Resume.out
+INPUT Daniel_Benjamin_Resume.out
+INPUT ./Daniel_Benjamin_Resume.out
+INPUT ./Daniel_Benjamin_Resume.out
+OUTPUT Daniel_Benjamin_Resume.out
+OUTPUT Daniel_Benjamin_Resume.pdf
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/xcharter/XCharter-Roman-tlf-t1.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/xcharter/XCharter-Bold-tlf-t1.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/xcharter/XCharter-Bold-tlf-t1.tfm
@@ -161,9 +161,9 @@ INPUT c:/texlive/2024/texmf-dist/fonts/vf/public/xcharter/XCharter-Bold-tlf-t1.v
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/xcharter/XCharter-Bold-tlf-t1--base.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/vf/public/xcharter/XCharter-Bold-tlf-t1.vf
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/xcharter/XCharter-Bold-tlf-t1--base.tfm
-INPUT main.aux
-INPUT ./main.out
-INPUT ./main.out
+INPUT Daniel_Benjamin_Resume.aux
+INPUT ./Daniel_Benjamin_Resume.out
+INPUT ./Daniel_Benjamin_Resume.out
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/xcharter/XCharter-Bold.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/xcharter/XCharter-Roman.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
