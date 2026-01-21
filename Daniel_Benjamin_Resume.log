@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.19)  13 DEC 2025 17:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.19)  19 JAN 2026 23:15
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -6,7 +6,7 @@ entering extended mode
 **c:/Users/danie/GitHub/resume/Daniel_Benjamin_Resume.tex
 (c:/Users/danie/GitHub/resume/Daniel_Benjamin_Resume.tex
 LaTeX2e <2025-11-01>
-L3 programming layer <2025-10-24>
+L3 programming layer <2025-12-29>
 (C:\Users\danie\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
 (C:\Users\danie\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
@@ -76,10 +76,13 @@ LaTeX Font Info:    Setting XCharter-OsF sub-encoding to TS1/0 on input line 37.
 LaTeX Font Info:    Changing XCharter-TOsF sub-encoding to TS1/0 on input line 37.
 \xch@cnt=\count290
  (C:\Users\danie\AppData\Local\Programs\MiKTeX\tex/latex/fontaxes\fontaxes.sty
-Package: fontaxes 2025-05-24 v2.0.1 Font selection axes (deprecated)
+Package: fontaxes 2026-01-02 v2.0.2 Font selection axes (deprecated)
+Applying: [2024-11-01] Use figureversions if present on input line 74.
  (C:\Users\danie\AppData\Local\Programs\MiKTeX\tex/latex/figureversions\figureversions.sty
 Package: figureversions 2025-04-29 v1.0.1 Figure versions
-))
+)
+Already applied: [0000-00-00] Fall back to v1 on input line 76.
+)
 LaTeX Info: Redefining \textsu on input line 737.
 LaTeX Info: Redefining \textde on input line 740.
 LaTeX Info: Redefining \textinf on input line 742.
@@ -332,21 +335,21 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 {C:/Users/danie/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/xcharter/xch_rydp4l.enc}] (Daniel_Benjamin_Resume.aux)
  ***********
 LaTeX2e <2025-11-01>
-L3 programming layer <2025-10-24>
+L3 programming layer <2025-12-29>
  ***********
 Package rerunfilecheck Info: File `Daniel_Benjamin_Resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 10836 strings out of 467871
- 171066 string characters out of 5418375
- 622739 words of memory out of 5000000
- 39588 multiletter control sequences out of 15000+600000
+ 10837 strings out of 467871
+ 171087 string characters out of 5418376
+ 622751 words of memory out of 5000000
+ 39589 multiletter control sequences out of 15000+600000
  663543 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,5n,79p,362b,477s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/xcharter/XCharter-Bold.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/xcharter/XCharter-Roman.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Daniel_Benjamin_Resume.pdf (1 page, 139874 bytes).
+Output written on Daniel_Benjamin_Resume.pdf (1 page, 139634 bytes).
 PDF statistics:
  37 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)

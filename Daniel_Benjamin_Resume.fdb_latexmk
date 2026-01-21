@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1765674560.24141 "c:/Users/danie/GitHub/resume/Daniel_Benjamin_Resume.tex" "Daniel_Benjamin_Resume.pdf" "Daniel_Benjamin_Resume" 1765674561.12818 0
-  "C:/Users/danie/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1763619220 148263 85a04537a2a9ed6782959a0232e356e6 ""
-  "C:/Users/danie/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1763617036 13333512 b861371c0b2dca0176d24ac87bb5fe4f ""
+["pdflatex"] 1768893328.68383 "c:/Users/danie/GitHub/resume/Daniel_Benjamin_Resume.tex" "Daniel_Benjamin_Resume.pdf" "Daniel_Benjamin_Resume" 1768893329.23196 0
+  "C:/Users/danie/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1768465183 148263 85a04537a2a9ed6782959a0232e356e6 ""
+  "C:/Users/danie/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1768892401 13333487 9ef158ed9c1934aae24964f55805ea43 ""
   "C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/xcharter/xch_rydp4l.enc" 1719043975 3163 fbe7a051c6788c203614493dc165f2e9 ""
   "C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm1095.tfm" 993062124 3172 eb6efaa83c6c52473a1c403f376eab0f ""
   "C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi10.tfm" 1136765053 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -50,7 +50,7 @@
   "C:/Users/danie/AppData/Local/Programs/MiKTeX/tex/latex/enumitem/enumitem.sty" 1738917170 52272 63d293bc0d496619edb57585740861a2 ""
   "C:/Users/danie/AppData/Local/Programs/MiKTeX/tex/latex/etoolbox/etoolbox.sty" 1759409308 46885 8953c67ffba03252c6090aa19568b8ba ""
   "C:/Users/danie/AppData/Local/Programs/MiKTeX/tex/latex/figureversions/figureversions.sty" 1746359279 18666 2ca37665798a8bb43e1c59968f22e2aa ""
-  "C:/Users/danie/AppData/Local/Programs/MiKTeX/tex/latex/fontaxes/fontaxes.sty" 1749321089 2856 aa6d64dbfa8b052fed4ba2a3e6cdc8f6 ""
+  "C:/Users/danie/AppData/Local/Programs/MiKTeX/tex/latex/fontaxes/fontaxes.sty" 1768130287 3035 640dbe69f1693da9dfa91b979b3bb55c ""
   "C:/Users/danie/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.cfg" 1578053545 1104 7ac475a4e3466b0b43e138e9356bda83 ""
   "C:/Users/danie/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.sty" 1578053545 42759 9cf6c5257b1bc7af01a58859749dd37a ""
   "C:/Users/danie/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/color.cfg" 1465894292 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
@@ -76,10 +76,10 @@
   "C:/Users/danie/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/danie/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "C:/Users/danie/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1693735632 123 a302f2c651a95033260db60e51527ae8 ""
-  "Daniel_Benjamin_Resume.aux" 1765674560 162 55205a9e8a8eca30d36afb389b0617bf "pdflatex"
-  "Daniel_Benjamin_Resume.out" 1765674560 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "Daniel_Benjamin_Resume.tex" 1765674559 7328 6b3b2c14bfae0d0cce971b3025c0bcc9 ""
-  "c:/Users/danie/GitHub/resume/Daniel_Benjamin_Resume.tex" 1765674559 7328 6b3b2c14bfae0d0cce971b3025c0bcc9 ""
+  "Daniel_Benjamin_Resume.aux" 1768893329 162 55205a9e8a8eca30d36afb389b0617bf "pdflatex"
+  "Daniel_Benjamin_Resume.out" 1768893329 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Daniel_Benjamin_Resume.tex" 1768893327 7424 dbaf2cbb9c378cdc81d0fe3461f7f50d ""
+  "c:/Users/danie/GitHub/resume/Daniel_Benjamin_Resume.tex" 1768893327 7424 dbaf2cbb9c378cdc81d0fe3461f7f50d ""
   (generated)
   "Daniel_Benjamin_Resume.aux"
   "Daniel_Benjamin_Resume.log"
