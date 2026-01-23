@@ -10,21 +10,26 @@ right=0.5in]{geometry}              % specify right page margin
 \usepackage[T1]{fontenc}            % output encoding
 \usepackage[utf8]{inputenc}         % input encoding
 \usepackage{enumitem}               % enable lists for bullet points: itemize and \item
-\usepackage[hidelinks]{hyperref}    % format hyperlinks
+\usepackage[colorlinks=true]{hyperref}    % format hyperlinks
 \usepackage{titlesec}               % enable section title customization
 \raggedright                        % disable text justification
 \pagestyle{empty}                   % disable page numbering
 \definecolor{accentColour}{RGB}{12,35,68}% set heading color
+\definecolor{linkBlue}{RGB}{0, 90, 150}
 
 % ensure PDF output will be all-Unicode and machine-readable
 \input{glyphtounicode}
 \pdfgentounicode=1
 
 % add PDF metadata
-\hypersetup{pdfinfo={
-Title={Daniel Benjamin - Resume},
-Author={Daniel Benjamin},
-Keywords={Mechanical Engineer, SOLIDWORKS, Git, GitHub, MATLAB, Waterjet, 3D, 3D Printing, Subversion, UBC, UBC Formula Electric, Composites, Chassis, Undergraduate Research Assistant}
+\hypersetup{
+colorlinks=true,
+linkcolor=linkBlue,
+urlcolor=linkBlue,  
+pdfinfo={
+  Title={Daniel Benjamin - Resume},
+  Author={Daniel Benjamin},
+  Keywords={Mechanical Engineer, SOLIDWORKS, Git, GitHub, MATLAB, Waterjet, 3D, 3D Printing, Subversion, UBC, UBC Formula Electric, Composites, Chassis, Undergraduate Research Assistant}
 }}
 
 % format section headings: bolding, size, white space above and below
@@ -117,7 +122,7 @@ Keywords={Mechanical Engineer, SOLIDWORKS, Git, GitHub, MATLAB, Waterjet, 3D, 3D
 
 % education section
 \section*{EDUCATION}
-\textbf{\href{https://apsc.ubc.ca/}{University of British Columbia}} \hfill Expected Graduation: May 2029
+\textbf{University of British Columbia} \hfill Expected Graduation: May 2029
 \\Bachelor of Applied Science – Mechanical Engineering
 
 % alternate formatting for projects section
