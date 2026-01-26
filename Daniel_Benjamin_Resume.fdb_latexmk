@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1769159353.68492 "c:/Users/danie/GitHub/resume/Daniel_Benjamin_Resume.tex" "Daniel_Benjamin_Resume.pdf" "Daniel_Benjamin_Resume" 1769159354.27874 0
-  "C:/Users/danie/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1769142899 148263 85a04537a2a9ed6782959a0232e356e6 ""
+["pdflatex"] 1769404588.02293 "c:/Users/danie/GitHub/resume/Daniel_Benjamin_Resume.tex" "Daniel_Benjamin_Resume.pdf" "Daniel_Benjamin_Resume" 1769404588.5758 0
+  "C:/Users/danie/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1769240436 148461 125a398729ac0b53806219aeee91287e ""
   "C:/Users/danie/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1768892401 13333487 9ef158ed9c1934aae24964f55805ea43 ""
   "C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/xcharter/xch_rydp4l.enc" 1719043975 3163 fbe7a051c6788c203614493dc165f2e9 ""
   "C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm1095.tfm" 993062124 3172 eb6efaa83c6c52473a1c403f376eab0f ""
@@ -77,10 +77,10 @@
   "C:/Users/danie/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/danie/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "C:/Users/danie/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1693735632 123 a302f2c651a95033260db60e51527ae8 ""
-  "Daniel_Benjamin_Resume.aux" 1769159354 162 55205a9e8a8eca30d36afb389b0617bf "pdflatex"
-  "Daniel_Benjamin_Resume.out" 1769159354 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "Daniel_Benjamin_Resume.tex" 1769159353 7511 c7e2c83b3b87e927465c0ed7c2482a1d ""
-  "c:/Users/danie/GitHub/resume/Daniel_Benjamin_Resume.tex" 1769159353 7511 c7e2c83b3b87e927465c0ed7c2482a1d ""
+  "Daniel_Benjamin_Resume.aux" 1769404588 162 55205a9e8a8eca30d36afb389b0617bf "pdflatex"
+  "Daniel_Benjamin_Resume.out" 1769404588 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Daniel_Benjamin_Resume.tex" 1769404587 7542 a3aec42ce43fc6ce6e5ccb9b239b0d81 ""
+  "c:/Users/danie/GitHub/resume/Daniel_Benjamin_Resume.tex" 1769404587 7542 a3aec42ce43fc6ce6e5ccb9b239b0d81 ""
   (generated)
   "Daniel_Benjamin_Resume.aux"
   "Daniel_Benjamin_Resume.log"
