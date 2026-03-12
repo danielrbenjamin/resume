@@ -1,0 +1,141 @@
+\documentclass[11pt]{article}       % set main text size
+\usepackage[letterpaper,            % set paper size to letterpaper. change to a4paper for resumes outside of North America
+top=0.5in,                          % specify top page margin
+bottom=0.5in,                       % specify bottom page margin
+left=0.5in,                         % specify left page margin
+right=0.5in]{geometry}              % specify right page margin
+                       
+\usepackage{XCharter}               % set font
+\usepackage{xcolor}                 % set colour coding
+\usepackage[T1]{fontenc}            % output encoding
+\usepackage[utf8]{inputenc}         % input encoding
+\usepackage{enumitem}               % enable lists for bullet points: itemize and \item
+\usepackage[colorlinks=true]{hyperref}    % format hyperlinks
+\usepackage{titlesec}               % enable section title customization
+\raggedright                        % disable text justification
+\pagestyle{empty}                   % disable page numbering
+\definecolor{accentColour}{RGB}{12,35,68}% set heading color
+\definecolor{linkBlue}{RGB}{0, 90, 150}
+
+% ensure PDF output will be all-Unicode and machine-readable
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+% add PDF metadata
+\hypersetup{
+colorlinks=true,
+linkcolor=linkBlue,
+urlcolor=linkBlue,  
+pdfinfo={
+  Title={Daniel Benjamin - Resume},
+  Author={Daniel Benjamin},
+  Keywords={Mechanical Engineer, SOLIDWORKS, Git, GitHub, MATLAB, Waterjet, 3D, 3D Printing, Subversion, UBC, UBC Formula Electric, Composites, Chassis, Undergraduate Research Assistant}
+}}
+
+% format section headings: bolding, size, white space above and below
+\titleformat{\section}{\bfseries\large\color{accentColour}}{}{0pt}{}[\vspace{1pt}\titlerule\vspace{-6.5pt}]
+
+% format bullet points: size, white space above and below, white space between bullets
+\renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$}
+\setlist[itemize]{itemsep=-2pt, leftmargin=12pt, after=\vspace*{-6.5pt}}
+
+% resume starts here
+\begin{document}
+
+% name
+\centerline{\Huge \color{accentColour} DANIEL BENJAMIN}
+
+\vspace{5pt}
+
+% contact information
+\centerline{\href{mailto:contact@danielrbenjamin.com}{contact@danielrbenjamin.com} | 236-562-2566 | \href{https://www.linkedin.com/in/danielrbenjamin}{linkedin.com/in/danielrbenjamin} | \href{https://www.danielrbenjamin.com/}{danielrbenjamin.com}}
+
+% availability
+\centerline{available starting May 2026 for a 4-month or 8-month co-op position}
+
+\vspace{-6.5pt}
+
+% education section
+\section*{EDUCATION}
+\textbf{University of British Columbia} \hfill Expected Graduation: May 2028
+\\Bachelor of Applied Science – Mechanical Engineering
+
+\vspace{-6.5pt}
+
+% functional experience section
+\section*{MECHANICAL DESIGN EXPERIENCE HIGHLIGHTS}
+\begin{itemize}
+  \item Used SOLIDWORKS to \href{https://www.danielrbenjamin.com/projects/formula-frame-design.html}{design an FSAE chassis frame} and developed Python scripts to calculate forces under various braking and cornering load cases for torsional rigidity simulations in ANSYS Mechanical
+  \item Designed \href{https://www.danielrbenjamin.com/projects/MEMS-hand.html}{a robotic hand} driven by soft pneumatic actuators 25\% better at grasping than previous iterations
+  \item Produced HVAC, plumbing, and fire suppression layouts in AutoCAD for commercial and residential projects
+  \item Designed and validated multiple waterproof \href{https://www.danielrbenjamin.com/projects/formula.html}{3D-printed enclosures} for circuit boards against IPX5 standards
+\end{itemize}
+
+% other experience section
+\section*{EXPERIENCE}
+
+\textbf{Chassis Team Lead,} {UBC Formula Electric} \hfill June 2025 -- Present \\
+\vspace{-8.5pt}
+\begin{itemize}
+  \item Led 7-person chassis subteam in design and manufacturing decisions for the 2026 competition vehicle
+  \item Deployed SVN server on Oracle Cloud to track design changes alongside a \href{https://www.danielrbenjamin.com/projects/svnworks.html}{custom SOLIDWORKS integration}
+  \item Coordinated with other subteams to ensure chassis design met packaging requirements
+\end{itemize}
+
+\textbf{Mechanical Co-op,} {Avalon Mechanical} \hfill May 2025 -- Aug 2025 \\
+\vspace{-8.5pt}
+\begin{itemize}
+  \item Developed AutoLISP automation scripts to  reducing CAD drafting time by over 30\%, saving 7+ hours per week
+  \item Assisted with drawing revisions, redlines, and documentation for tender and construction packages
+  \item Performed hallway pressurization analysis and fan sizing using Excel and TRACE, calculating required airflow and pressure differentials to meet NFPA and provincial code requirements
+  \item Validated fire sprinkler hydraulic systems using Elite Software FIRE for code-compliant designs
+\end{itemize}
+
+\textbf{Chassis Team Member,} {UBC Formula Electric} \hfill Sep 2023 -- June 2025 \\
+\vspace{-8.5pt}
+\begin{itemize}
+  \item Resolved critical packaging constraints by proposing dual horizontal-vertical PCB configuration to electrical team, then \href{https://www.danielrbenjamin.com/projects/formula.html}{designed multi-part enclosure} to accommodate both components while meeting IPX5 standards
+  \item Planned and executed carbon fiber + glass fiber composite layups for car body panels and aero kit
+\end{itemize}
+
+\textbf{Undergraduate Research Assistant,} {UBC MEMS Lab} \hfill May 2024 -- Feb 2025 \\
+\vspace{-8.5pt}
+\begin{itemize}
+  \item Analyzed 15+ tendon-driven prosthetic hands to identify common successful design elements
+  \item Developed custom shell and Python scripts to integrate Git-based version control with SOLIDWORKS for collaboration with other lab members and documentation purposes
+  \item Rapidly prototyped design iterations using a custom-built multi-extrusion 3D printer running RepRapFirmware
+  \item Helped develop a demonstration platform to allow the prosthetic hand to mimic human hand gestures using MATLAB and Arduino scripts along with a Leap Motion hand-tracking camera module
+\end{itemize}
+
+\textbf{Volunteer,} {Victoria Hand Project} \hfill July 2022 -- Present \\
+\vspace{-8.5pt}
+\begin{itemize}
+  \item Assembled and repaired 3D-printed low-cost prosthetic arms with voluntary open/close functionality
+  \item Contributed concrete ideas to improve assembly speeds, leading to creation of new documentation
+\end{itemize}
+
+% projects section
+\section*{PROJECTS}
+\textbf{WeBWorKer Chrome Extension} \hfill \href{https://github.com/danielrbenjamin/WeBWorKer}{github.com/danielrbenjamin/WeBWorKer} \\
+\vspace{-8.5pt}
+\begin{itemize}
+  \item Published an extension on the Chrome Web Store with over 900 users at peak adoption
+  \item Used JavaScript and CSS to provide real-time LaTeX formatted previews of plaintext math on the WeBWorK homework platform, show matching parentheses, recognize variable names, and add custom query integrations
+\end{itemize}
+
+% skills section
+\section*{SKILLS}
+\textbf{Mechanical:} SOLIDWORKS, AutoCAD, ANSYS, Composites, Machining, 3D Printing, MIG Welding, FMEA\\
+\textbf{Software:} C, MATLAB, Python, AutoLISP, JS, Arduino, Git, SVN, Docker, AWS, Jira, Bluebeam, Adobe CC
+
+% alternate formatting for projects section
+% \section*{Projects}
+% \begin{itemize}
+%   \item \textbf{QuantSoftware Toolkit:} Open source Python library for data analysis and machine learning for finance
+%   \item \textbf{GitHub Visualization:} Data visualization of Git Log data using D3 to analyze project trends over time
+%   \item \textbf{Recommendation System:} Music and movie recommender systems using collaborative filtering on public datasets
+%   \item \textbf{Mac Setup:} Book that gives step by step instructions on setting up developer environment on Mac OS
+% \end{itemize}
+
+
+\end{document}
