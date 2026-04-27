@@ -1,0 +1,306 @@
+\documentclass[11pt]{article}
+
+% ---------- PAGE GEOMETRY ----------
+\usepackage[
+letterpaper,
+top=0.5in,
+bottom=0.5in,
+left=0.5in,
+right=0.5in
+]{geometry}
+
+% ---------- FONT & ENCODING ----------
+\usepackage{XCharter}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+% ---------- COLORS & GRAPHICS ----------
+\usepackage{xcolor}
+\usepackage{graphicx}
+
+% ---------- LISTS & LAYOUT ----------
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{tabularx}  % column layout
+\usepackage{array}     % better column control
+
+% ---------- LINKS ----------
+\usepackage[colorlinks=true]{hyperref}
+
+% ---------- PAGE STYLE ----------
+\raggedright
+\setlength{\parindent}{0pt}
+\pagestyle{empty}
+
+% ---------- COLORS ----------
+\definecolor{accentColour}{RGB}{12,35,68}
+\definecolor{linkBlue}{RGB}{0, 90, 150}
+
+% ---------- UNICODE / ATS ----------
+\IfFileExists{glyphtounicode.tex}{\input{glyphtounicode}}{}
+\pdfgentounicode=1
+
+% ---------- PDF METADATA ----------
+\hypersetup{
+colorlinks=true,
+linkcolor=linkBlue,
+urlcolor=linkBlue,  
+pdfinfo={
+  Title={Daniel Benjamin - Engineering Portfolio},
+  Author={Daniel Benjamin},
+  Keywords={Mechanical Engineering, SOLIDWORKS, Manufacturing, Chassis, Composites, Prosthetics}
+}}
+
+% ---------- SECTION FORMATTING ----------
+\titleformat{\section}
+{\bfseries\large\color{accentColour}}
+{}
+{0pt}
+{}
+[\vspace{1pt}\titlerule\vspace{-6.5pt}]
+
+% ---------- CATEGORY HEADING ----------
+\newcommand{\categoryheading}[1]{%
+\vspace{12pt}
+\centerline{\bfseries\large\color{accentColour}#1}
+\vspace{8pt}
+}
+
+% ---------- BULLET FORMATTING ----------
+\renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$}
+\setlist[itemize]{itemsep=-2pt, leftmargin=12pt}
+
+% ---------- COLUMN TYPE ----------
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+
+% ---------- WHAT / HOW / RESULTS BLOCK ----------
+\newcommand{\WHR}[3]{%
+\vspace{2pt}
+\begin{tabularx}{\textwidth}{@{}Y Y Y@{}}
+\textbf{What?} & \textbf{How?} & \textbf{Results?} \\[-15pt]
+\begin{itemize}
+#1
+\end{itemize}
+&
+\begin{itemize}
+#2
+\end{itemize}
+&
+\begin{itemize}
+#3
+\end{itemize}
+\end{tabularx}
+}
+
+% ================= DOCUMENT =================
+\begin{document}
+
+% ---------- HEADER ----------
+\centerline{\Huge \color{accentColour} DANIEL BENJAMIN}
+\vspace{5pt}
+
+\centerline{
+\href{mailto:contact@danielrbenjamin.com}{contact@danielrbenjamin.com} |
+236-562-2566 |
+\href{https://www.linkedin.com/in/danielrbenjamin}{linkedin.com/in/danielrbenjamin} |
+\href{https://www.danielrbenjamin.com/}{danielrbenjamin.com}
+}
+
+\vspace{10pt}
+
+% ---------- PREAMBLE ----------
+\noindent
+Mechanical engineering student and software developer with expertise in CAD design, manufacturing, robotics, and full-stack application development. Experienced in translating complex technical requirements into elegant solutions across both mechanical systems and software platforms.
+
+\vspace{10pt}
+
+% ===================================================
+% MECHANICAL PROJECTS
+% ===================================================
+\categoryheading{MECHANICAL PROJECTS}
+
+% ===================================================
+% PROJECT
+% ===================================================
+\section*{UBC FORMULA ELECTRIC — CHASSIS FRAME DESIGN}
+
+\vspace{4pt}
+
+\begin{center}
+\includegraphics[width=0.32\textwidth]{project-images/frame-1.png}\hfill
+\includegraphics[width=0.32\textwidth]{project-images/frame-2.png}\hfill
+\includegraphics[width=0.32\textwidth]{project-images/frame-3.png}
+\end{center}
+
+\WHR{
+  \item Led end-to-end design of a FSAE electric vehicle chassis
+  \item Owned safety, packaging, and manufacturability decisions
+  \item Delegated team tasks and managed project timeline
+}{
+  \item Designed space frame in SOLIDWORKS, iterating tube geometry for stiffness-to-weight
+  \item Coordinated interfaces with suspension, powertrain, and battery teams
+}{
+  \item Achieved FSAE-compliant chassis with improved packaging
+  \item Enabled downstream manufacturing and on-schedule vehicle integration
+}
+
+
+
+% ===================================================
+% PROJECT
+% ===================================================
+\section*{MEMS PROSTHETIC HAND}
+
+\vspace{4pt}
+
+\begin{center}
+\includegraphics[width=0.17\textwidth]{project-images/hand-front.png}\hfill
+\includegraphics[width=0.37\textwidth]{project-images/mems-1.jpg}\hfill
+\includegraphics[width=0.37\textwidth]{project-images/mems-2.jpg}
+\end{center}
+
+\WHR{
+  \item Developed a tendon-driven prosthetic hand for research applications
+  \item Explored bio-inspired actuation and grasping strategies
+}{
+  \item Designed and 3D printed iterative mechanical prototypes
+  \item Integrated it with a Kinova Jaco2 robotic manipulator
+  \item Evaluated grasp performance and refined linkage geometry
+}{
+  \item Produced a fully functional prototype demonstrating reliable tendon actuation
+  \item Achieved measurable grasp performance improvements over prior designs
+}
+
+% ===================================================
+% PROJECT
+% ===================================================
+\section*{UBC FORMULA ELECTRIC — VARIOUS DESIGN PROJECTS (YEAR 1-2)}
+
+\vspace{4pt}
+
+\begin{center}
+\includegraphics[width=0.32\textwidth]{project-images/jacks.JPG}\hfill
+\includegraphics[width=0.32\textwidth]{project-images/vc.png}\hfill
+\includegraphics[width=0.32\textwidth]{project-images/layup.jpg}
+\end{center}
+
+\WHR{
+  \item Manufactured structural and composite vehicle components
+  \item Designed IPX5-rated electrical enclosures and mounting systems
+}{
+  \item Modeled mounts, enclosures, and tabs in SOLIDWORKS
+  \item Executed carbon and glass fiber composite layups
+  \item Created custom test fixtures for waterproofing validation
+}{
+  \item Delivered reliable body, aero, and enclosure components
+  \item Gained hands-on experience in composite and 3D-printed manufacturing workflows
+}
+
+% ===================================================
+% PROJECT
+% ===================================================
+\section*{MECH 223 RAIL HAULER}
+
+\vspace{4pt}
+
+\begin{center}
+\includegraphics[width=0.25\textwidth]{project-images/rail-hauler-cad1.png}\hfill
+\includegraphics[width=0.25\textwidth]{project-images/rail-hauler-cad2.png}\hfill
+\includegraphics[width=0.46\textwidth]{project-images/rail-hauler-physical.png}
+\end{center}
+
+\WHR{
+  \item Designed a load-carrying rail vehicle from concept to fabrication
+  \item Worked in a team to meet course requirements and deadlines
+}{
+  \item Modeled full mechanical system and produced fabrication drawings
+  \item Manufactured parts using machining, laser cutting, and 3D printing
+}{
+  \item Delivered a fully functional vehicle meeting load and performance targets
+  \item Demonstrated complete design–build–test cycle execution
+}
+
+\newpage
+
+% ===================================================
+% SOFTWARE PROJECTS
+% ===================================================
+\categoryheading{SOFTWARE PROJECTS}
+
+% ===================================================
+% PROJECT
+% ===================================================
+\section*{DANBOT}
+
+\vspace{4pt}
+
+\begin{center}
+\includegraphics[width=0.48\textwidth]{project-images/danbot_website.png}\hfill
+\includegraphics[width=0.48\textwidth]{project-images/danbot_webportal.png}
+\end{center}
+
+\WHR{
+  \item Built a Slack bot to monitor 3D printers and track server status in real time
+  \item Integrated Model Context Protocol (MCP) servers for extensible tool access
+  \item Developed a web interface for print job reservations with Slack OAuth integration
+}{
+  \item Connected to the Slack API for conversational command handling
+  \item Implemented MCP server integration to expose 3D printer and server monitoring tools
+  \item Designed for easy extensibility with additional MCP-compatible services
+}{
+  \item Enabled convenient monitoring of 3D print jobs and server health directly from Slack
+  \item Reduced need to switch between monitoring dashboards and communication tools
+}
+
+% ===================================================
+% PROJECT
+% ===================================================
+\section*{SVNWORKS}
+
+\vspace{4pt}
+
+\begin{center}
+\includegraphics[width=0.48\textwidth]{project-images/SVN_unlocked.png}\hfill
+\includegraphics[width=0.48\textwidth]{project-images/SVN_locked.png}
+\end{center}
+
+\WHR{
+  \item Built a Windows desktop tool to streamline CAD version control
+  \item Published on the Microsoft Store
+}{
+  \item Developed an MSIX application using C\#/.NET
+  \item Integrated Apache Subversion with the SOLIDWORKS API
+  \item Exposed file-lock and repository state directly in the CAD workflow
+}{
+  \item Reduced file conflicts in collaborative CAD environments
+  \item Improved design accountability and version awareness for teams
+}
+
+% ===================================================
+% PROJECT
+% ===================================================
+\section*{WEBWORKER CHROME EXTENSION}
+
+\vspace{4pt}
+
+\begin{center}
+\includegraphics[width=0.48\textwidth]{project-images/webworker-1.png}\hfill
+\includegraphics[width=0.48\textwidth]{project-images/webworker-2.png}
+\end{center}
+
+\WHR{
+  \item Created and published a browser extension to improve WeBWorK usability for students
+}{
+  \item Developed front-end logic in JavaScript and HTML/CSS
+  \item Implemented real-time math rendering and input validation
+  \item Added new features based on direct user feedback
+}{
+  \item Reached 900+ active users at peak adoption
+  \item Reduced input errors and improved workflow efficiency
+}
+
+
+\vspace{30pt}
+\centerline{For more details and media, please go to my portfolio website \href{https://www.danielrbenjamin.com/}{danielrbenjamin.com}}
+
+\end{document}

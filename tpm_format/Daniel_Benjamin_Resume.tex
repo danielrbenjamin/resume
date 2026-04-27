@@ -1,0 +1,129 @@
+\documentclass[11pt]{article}       % set main text size
+\usepackage[letterpaper,            % set paper size to letterpaper. change to a4paper for resumes outside of North America
+top=0.5in,                          % specify top page margin
+bottom=0.5in,                       % specify bottom page margin
+left=0.5in,                         % specify left page margin
+right=0.5in]{geometry}              % specify right page margin
+                       
+\usepackage{XCharter}               % set font
+\usepackage{xcolor}                 % set colour coding
+\usepackage[T1]{fontenc}            % output encoding
+\usepackage[utf8]{inputenc}         % input encoding
+\usepackage{enumitem}               % enable lists for bullet points: itemize and \item
+\usepackage[colorlinks=true]{hyperref}    % format hyperlinks
+\usepackage{titlesec}               % enable section title customization
+\raggedright                        % disable text justification
+\pagestyle{empty}                   % disable page numbering
+\definecolor{accentColour}{RGB}{12,35,68}% set heading color
+\definecolor{linkBlue}{RGB}{0, 90, 150}
+
+% ensure PDF output will be all-Unicode and machine-readable
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+% add PDF metadata
+\hypersetup{
+colorlinks=true,
+linkcolor=linkBlue,
+urlcolor=linkBlue,  
+pdfinfo={
+  Title={Daniel Benjamin - Resume},
+  Author={Daniel Benjamin},
+  Keywords={Mechanical Engineer, SOLIDWORKS, Git, GitHub, MATLAB, Waterjet, 3D, 3D Printing, Subversion, UBC, UBC Formula Electric, Composites, Chassis, Undergraduate Research Assistant}
+}}
+
+% format section headings: bolding, size, white space above and below
+\titleformat{\section}{\bfseries\large\color{accentColour}}{}{0pt}{}[\vspace{1pt}\titlerule\vspace{-6.5pt}]
+
+% format bullet points: size, white space above and below, white space between bullets
+\renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$}
+\setlist[itemize]{itemsep=-2pt, leftmargin=12pt, after=\vspace*{-6.5pt}}
+
+% resume starts here
+\begin{document}
+
+% name
+\centerline{\Huge \color{accentColour} DANIEL BENJAMIN}
+
+\vspace{5pt}
+
+% contact information
+\centerline{\href{mailto:contact@danielrbenjamin.com}{contact@danielrbenjamin.com} | 236-562-2566 | \href{https://www.linkedin.com/in/danielrbenjamin}{linkedin.com/in/danielrbenjamin} | \href{https://www.danielrbenjamin.com/}{danielrbenjamin.com}}
+
+% availability
+\centerline{available starting May 2026 for a 4-month or 8-month co-op position}
+
+\vspace{-6.5pt}
+
+% education section
+\section*{EDUCATION}
+\textbf{University of British Columbia} \hfill Expected Graduation: May 2028
+\\Bachelor of Applied Science – Mechanical Engineering
+
+\vspace{-6.5pt}
+
+% summary section
+\section*{SUMMARY}
+Mechanical Engineering student with experience supporting building systems design, project coordination, and document control processes. Proven ability to improve workflow efficiency (30\%+ time reduction) and manage technical documentation across multidisciplinary teams. Strong attention to detail with experience coordinating stakeholders, maintaining version-controlled records, and supporting project delivery under tight deadlines.
+\vspace{-3pt}
+
+% other experience section
+\section*{SELECTED EXPERIENCE}
+
+\textbf{Mechanical Co-op,} {Avalon Mechanical} \hfill May 2025 -- Aug 2025 \\
+\vspace{-8.5pt}
+\begin{itemize}
+   \item Developed AutoLISP automation scripts reducing CAD drafting time by over 30\%, saving 7+ hours per week
+  \item Assisted with drawing revisions, redlines, and documentation for tender and construction packages
+  \item Performed hallway pressurization analysis and fan sizing using Excel and TRACE, calculating required airflow and pressure differentials to meet NFPA and provincial code requirements
+  \item Validated fire sprinkler hydraulic systems using Elite Software FIRE for code-compliant designs
+\end{itemize}
+
+\textbf{Chassis Team Lead \textnormal{(prev. Team Member)},} {UBC Formula Electric} \hfill Sep 2023 -- Present \\
+\vspace{-8.5pt}
+\begin{itemize}
+  \item Led 7-person chassis subteam using agile project management practices, tracking tasks and milestones in Jira and maintaining Gantt charts to keep the 2026 competition vehicle on schedule
+  \item Implemented a CAD document control system using SVN on Oracle Cloud to track and manage design revisions, paired with a \href{https://www.danielrbenjamin.com/projects/svnworks.html}{custom SOLIDWORKS integration} to streamline adoption
+  \item Coordinated with other subteams to ensure chassis design met packaging and schedule requirements
+  \item Wrote detailed design documentation and SOPs to ensure knowledge transfer for future team members
+  \item Designed a custom 3D printer management dashboard and Slack integration to monitor print status and automate notifications, manage reservations and reduce downtime of 3D printers
+\end{itemize}
+
+\textbf{Undergraduate Research Assistant,} {UBC MEMS Lab} \hfill May 2024 -- Feb 2025 \\
+\vspace{-8.5pt}
+\begin{itemize}
+  \item Systematically reviewed and documented 15+ prosthetic hand designs, compiling findings into a structured format to guide the team's design direction
+  \item Rapidly prototyped design iterations using a custom-built multi-extrusion 3D printer running RepRapFirmware
+  \item Helped develop a demonstration platform to allow the prosthetic hand to mimic human hand gestures using MATLAB and Arduino scripts along with a Leap Motion hand-tracking camera module
+\end{itemize}
+
+\textbf{Volunteer,} {Victoria Hand Project} \hfill July 2022 -- Present \\
+\vspace{-8.5pt}
+\begin{itemize}
+  \item Assembled and repaired 3D-printed low-cost prosthetic arms with voluntary open/close functionality
+  \item Identified process improvements and contributed to creation of new assembly documentation to improve quality and consistency
+\end{itemize}
+
+\textbf{SVNWorks,} {Personal Project} \hfill \href{https://www.danielrbenjamin.com/projects/svnworks.html}{danielrbenjamin.com/projects/svnworks} \\
+\vspace{-8.5pt}
+\begin{itemize}
+  \item Built a custom integration between SOLIDWORKS, File Explorer, and an SVNserver to enable version-controlled document management for a student engineering team
+  \item Automated check-in/check-out workflows and revision tracking, replacing manual file management with a structured document control system
+\end{itemize}
+
+% skills section
+\section*{SKILLS}
+\textbf{Mechanical:} SOLIDWORKS, AutoCAD (+ AutoLISP), ANSYS, Composites, Machining, 3D Printing, FMEA\\
+\textbf{Software:} MS Office (Excel, Project), C, MATLAB, Python, JS, Git, SVN, Jira, Bluebeam, Docker, Adobe CC
+
+% alternate formatting for projects section
+% \section*{Projects}
+% \begin{itemize}
+%   \item \textbf{QuantSoftware Toolkit:} Open source Python library for data analysis and machine learning for finance
+%   \item \textbf{GitHub Visualization:} Data visualization of Git Log data using D3 to analyze project trends over time
+%   \item \textbf{Recommendation System:} Music and movie recommender systems using collaborative filtering on public datasets
+%   \item \textbf{Mac Setup:} Book that gives step by step instructions on setting up developer environment on Mac OS
+% \end{itemize}
+
+
+\end{document}
