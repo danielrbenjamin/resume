@@ -1,6 +1,6 @@
-PWD c:\Users\danie\GitHub\resume\tpm_format
+PWD c:\Users\danie\GitHub\resume\tesla_format
 INPUT C:\Users\danie\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\danie\GitHub\resume\tpm_format\Daniel_Benjamin_Resume.tex
+INPUT c:\Users\danie\GitHub\resume\tesla_format\Daniel_Benjamin_Resume.tex
 OUTPUT Daniel_Benjamin_Resume.log
 INPUT C:\Users\danie\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\danie\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls

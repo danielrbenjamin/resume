@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.4.8)  27 APR 2026 16:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.4.8)  28 APR 2026 02:51
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/danie/GitHub/resume/tpm_format/Daniel_Benjamin_Resume.tex
-(c:/Users/danie/GitHub/resume/tpm_format/Daniel_Benjamin_Resume.tex
+**c:/Users/danie/GitHub/resume/tesla_format/Daniel_Benjamin_Resume.tex
+(c:/Users/danie/GitHub/resume/tesla_format/Daniel_Benjamin_Resume.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
 (C:\Users\danie\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -344,16 +344,16 @@ Package rerunfilecheck Info: File `Daniel_Benjamin_Resume.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  10841 strings out of 467867
- 171256 string characters out of 5418335
- 620921 words of memory out of 5000000
+ 171274 string characters out of 5418335
+ 624921 words of memory out of 5000000
  39598 multiletter control sequences out of 15000+600000
  663543 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,5n,79p,525b,478s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,5n,79p,502b,478s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/xcharter/XCharter-Bold.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/xcharter/XCharter-Roman.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Daniel_Benjamin_Resume.pdf (1 page, 139110 bytes).
+Output written on Daniel_Benjamin_Resume.pdf (1 page, 140944 bytes).
 PDF statistics:
- 32 PDF objects out of 1000 (max. 8388607)
+ 37 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
