@@ -32,6 +32,24 @@ pdfinfo={
   Keywords={Mechanical Engineer, SOLIDWORKS, Git, GitHub, MATLAB, Waterjet, 3D, 3D Printing, Subversion, UBC, UBC Formula Electric, Composites, Chassis, Undergraduate Research Assistant}
 }}
 
+% ============================================================
+% Resume Analytics
+% Change these values for each application (URL-safe values).
+% ============================================================
+\newcommand{\utmSource}{website}
+\newcommand{\utmMedium}{resume}
+\newcommand{\utmCampaign}{evergreen}
+\newcommand{\utmContent}{general_resume}
+
+% Path is relative to the homepage, e.g. projects/fsae-chassis/.
+\newcommand{\trackedPortfolioURL}[1]{%
+  https://www.danielrbenjamin.com/#1?utm_source=\utmSource\&utm_medium=\utmMedium\&utm_campaign=\utmCampaign\&utm_content=\utmContent%
+}
+
+% Display clean text while embedding the tracked destination.
+\newcommand{\portfolioLink}[2]{%
+  \href{\trackedPortfolioURL{#1}}{#2}%
+}
 % format section headings: bolding, size, white space above and below
 \titleformat{\section}{\bfseries\large\color{accentColour}}{}{0pt}{}[\vspace{1pt}\titlerule\vspace{-6.5pt}]
 
@@ -48,7 +66,7 @@ pdfinfo={
 \vspace{5pt}
 
 % contact information
-\centerline{\href{mailto:contact@danielrbenjamin.com}{contact@danielrbenjamin.com} | 236-562-2566 | \href{https://www.linkedin.com/in/danielrbenjamin}{linkedin.com/in/danielrbenjamin} | \href{https://www.danielrbenjamin.com/}{danielrbenjamin.com}}
+\centerline{\href{mailto:contact@danielrbenjamin.com}{contact@danielrbenjamin.com} | 236-562-2566 | \href{https://www.linkedin.com/in/danielrbenjamin}{linkedin.com/in/danielrbenjamin} | \portfolioLink{}{danielrbenjamin.com}}
 
 % availability
 \centerline{available starting May 2027 for a 4-month or 8-month co-op position}
@@ -65,9 +83,9 @@ pdfinfo={
 % functional experience section
 \section*{MECHANICAL DESIGN EXPERIENCE HIGHLIGHTS}
 \begin{itemize}
-  \item Designed and manufactured an \href{https://www.danielrbenjamin.com/projects/fsae-chassis/}{FSAE chassis frame} in SOLIDWORKS and developed Python scripts to calculate forces under various braking and cornering load cases for torsional rigidity simulations in ANSYS Mechanical
-  \item Designed \href{https://www.danielrbenjamin.com/projects/mems-hand/}{a robotic hand} driven by soft pneumatic actuators 25\% better at grasping than previous iterations
-  \item Designed and validated multiple waterproof \href{https://www.danielrbenjamin.com/projects/circuit-enclosure/}{3D-printed enclosures} for circuit boards against IPX5 standards
+  \item Designed and manufactured an \portfolioLink{projects/fsae-chassis/}{FSAE chassis frame} in SOLIDWORKS and developed Python scripts to calculate forces under various braking and cornering load cases for torsional rigidity simulations in ANSYS Mechanical
+  \item Designed \portfolioLink{projects/mems-hand/}{a robotic hand} driven by soft pneumatic actuators 25\% better at grasping than previous iterations
+  \item Designed and validated multiple waterproof \portfolioLink{projects/circuit-enclosure/}{3D-printed enclosures} for circuit boards against IPX5 standards
   \item Developed AutoLISP automation scripts to  reducing CAD drafting time by over 30\%, saving 7+ hours per week
 \end{itemize}
 
@@ -79,8 +97,8 @@ pdfinfo={
 \begin{itemize}
   \item Led 7-person chassis subteam using Agile project management with Jira and Gantt charts to coordinate deliverables and keep the 2026 competition vehicle on schedule
   \item Planned and executed carbon fiber + glass fiber composite layups for car body panels and aero kit
-  \item Deployed SVN server on Oracle Cloud to track design changes alongside a \href{https://www.danielrbenjamin.com/projects/cad-infra/}{custom SOLIDWORKS integration}
-  \item Designed a \href{https://www.danielrbenjamin.com/projects/danbot/}{custom 3D printer dashboard and Slack bot} to manage print jobs, status and reservations
+  \item Deployed SVN server on Oracle Cloud to track design changes alongside a \portfolioLink{projects/cad-infra/}{custom SOLIDWORKS integration}
+  \item Designed a \portfolioLink{projects/danbot/}{custom 3D printer dashboard and Slack bot} to manage print jobs, status and reservations
   \item Wrote detailed design documentation and SOPs to ensure knowledge transfer for future team members
 \end{itemize}
 
@@ -120,7 +138,7 @@ pdfinfo={
 \textbf{WeBWorKer Chrome Extension} \hfill \href{https://github.com/danielrbenjamin/WeBWorKer}{github.com/danielrbenjamin/WeBWorKer} \\
 \vspace{-8.5pt}
 \begin{itemize}
-  \item Published an \href{https://www.danielrbenjamin.com/projects/webworker/}{extension} on the \href{https://chromewebstore.google.com/detail/webworker/cokogomdladilchdakkknehhnnoipbke}{Chrome Web Store} with over 900 users at peak adoption
+  \item Published an \portfolioLink{projects/webworker/}{extension} on the \href{https://chromewebstore.google.com/detail/webworker/cokogomdladilchdakkknehhnnoipbke}{Chrome Web Store} with over 900 users at peak adoption
   \item Used JavaScript and CSS to provide real-time LaTeX formatted previews of plaintext math on the WeBWorK homework platform, show matching parentheses, recognize variable names, and add custom query integrations
 \end{itemize}
 
@@ -129,7 +147,7 @@ pdfinfo={
 \textbf{AI-Driven Predictive Maintenance System} \hfill \href{https://github.com/danielrbenjamin/manu465-project}{github.com/danielrbenjamin/manu465-project} \\
 \vspace{-8.5pt}
 \begin{itemize}
-  \item Applied \href{https://www.danielrbenjamin.com/projects/manu465-project/}{ML in Python} using TensorFlow to predict maintenance needs in smart manufacturing equipment
+  \item Applied \portfolioLink{projects/manu465-project/}{ML in Python} using TensorFlow to predict maintenance needs in smart manufacturing equipment
 \end{itemize}
 
 % skills section
